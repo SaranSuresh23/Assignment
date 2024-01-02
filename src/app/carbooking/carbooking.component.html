@@ -6,8 +6,8 @@
       <div class="select">
       <select name="" id="room" formControlName="room" #room (change)="selectRoom(room.value)">
         <option value="" disabled selected>Select car type</option>
-        <option value="A/C car">A/C car</option>
-        <option value="Non A/C car">Non A/C car</option>
+        <option value="A/C car">A/C </option>
+        <option value="Non A/C car">Non A/C </option>
       </select>
       @if (hotelform.controls['room'].errors?.['required'] && hotelform.controls['room'].touched) {
        <small>Car Type is required</small>

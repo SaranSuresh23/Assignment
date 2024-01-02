@@ -9,6 +9,7 @@
   gap: 1rem;
   flex-direction: column;
   width: 600px;
+  background: darkcyan;
 }
 form{
   display: flex;
