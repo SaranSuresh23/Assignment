@@ -1,0 +1,32 @@
+header{
+  background-color: rgb(33, 44, 28);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header nav{
+  display: flex;
+  gap: 1rem;
+}
+header nav a{
+  text-decoration: none;
+  color: #fff;
+}
+header h1{
+  color: #fff;
+}
+.logo{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.credentials{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.credentials a{
+  color: #fff;
+  text-decoration: none;
+}
